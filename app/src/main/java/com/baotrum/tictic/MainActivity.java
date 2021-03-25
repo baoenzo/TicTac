@@ -272,17 +272,17 @@ public class MainActivity extends AppCompatActivity {
             if(hasOWon()){
                 losses++;
                 lossScore.setText(String.valueOf(losses));
-                gameStatus.setText("You Lost!");
+                gameStatus.setText("Bạn thua!");
             }
             else if(hasXWon()){
                 wins++;
                 winScore.setText(String.valueOf(wins));
-                gameStatus.setText("You Wins!");
+                gameStatus.setText("Bạn thắng");
             }
             else if(isFull()){
                 draws++;
                 drawScore.setText(String.valueOf(draws));
-                gameStatus.setText("Draw!");
+                gameStatus.setText("Hòa!");
             }
         }
     }
@@ -290,7 +290,7 @@ public class MainActivity extends AppCompatActivity {
     ///////////////////////////////////////////////////////////////////////
     private void startGame(View v){
         if(isGameOver()){
-            gameStatus.setText("Click Restart to play again!");
+            gameStatus.setText("Nhấp chơi lại để bắt đầu lại!");
             return;
         }
         //       Log.d(TAG, "Clicked on ImageView!");
@@ -405,7 +405,7 @@ public class MainActivity extends AppCompatActivity {
         }
         initMap();
         initLines();
-        gameStatus.setText("Started!");
+        gameStatus.setText("Bắt đầu!");
     }
 
 

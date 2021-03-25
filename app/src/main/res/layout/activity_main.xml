@@ -19,8 +19,8 @@
         android:layout_alignBottom="@+id/box1"
         android:layout_toRightOf="@+id/box1"
         android:layout_toEndOf="@+id/box1"
-        android:layout_marginLeft="43dp"
-        android:layout_marginStart="43dp"
+        android:layout_marginLeft="65dp"
+        android:layout_marginStart="65dp"
         android:clickable="true"
         android:contentDescription="@string/box2"
         android:id="@+id/box2"
@@ -54,7 +54,7 @@
         android:layout_below="@+id/box4"
         android:layout_alignLeft="@+id/box4"
         android:layout_alignStart="@+id/box4"
-        android:layout_marginTop="35dp"
+        android:layout_marginTop="60dp"
         android:id="@+id/box7"
         android:clickable="true"
         android:contentDescription="@string/box7" />
@@ -85,7 +85,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:srcCompat="@drawable/unmarked1"
-        android:layout_marginTop="51dp"
+        android:layout_marginTop="60dp"
         android:id="@+id/box4"
         android:clickable="true"
         android:contentDescription="@string/box4"
@@ -97,18 +97,18 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:srcCompat="@drawable/unmarked1"
-        android:layout_marginTop="79dp"
+        android:layout_marginTop="100dp"
         android:clickable="true"
         android:contentDescription="@string/box1"
         android:id="@+id/box1"
-        android:layout_marginLeft="60dp"
-        android:layout_marginStart="60dp"
+        android:layout_marginLeft="67dp"
+        android:layout_marginStart="67dp"
         android:layout_alignParentTop="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
 
     <TextView
-        android:text="@string/onGoing"
+        android:text="Đang đánh .."
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/textView"
@@ -191,14 +191,13 @@
         android:id="@+id/msgStatus"
         android:textColor="@android:color/holo_orange_light"
         android:textSize="18sp"
-        android:text="@string/msgStatus"
-        android:layout_marginTop="40dp"
-        android:layout_below="@+id/box7"
-        android:layout_alignRight="@+id/box7"
-        android:layout_alignEnd="@+id/box7" />
+        android:text="Trạng thái:"
+        android:layout_marginTop="70dp"
+        android:layout_marginLeft="70dp"
+        android:layout_below="@+id/box7" />
 
     <Button
-        android:text="@string/quit"
+        android:text="Thoát"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/btnQuit"
@@ -209,10 +208,10 @@
         android:layout_below="@+id/lblLoss"
         android:layout_alignLeft="@+id/lblLoss"
         android:layout_alignStart="@+id/lblLoss"
-        android:layout_marginTop="12dp" />
+        android:layout_marginTop="30dp" />
 
     <Button
-        android:text="@string/rst"
+        android:text="Chơi lại"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/btnRst"
@@ -226,8 +225,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:srcCompat="@drawable/unmarked1"
-        android:layout_marginLeft="51dp"
-        android:layout_marginStart="51dp"
+        android:layout_marginLeft="65dp"
+        android:layout_marginStart="65dp"
         android:id="@+id/box3"
         android:clickable="true"
         android:contentDescription="@string/box3"
